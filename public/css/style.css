@@ -1,52 +1,57 @@
-
-h1,h2,h3,h4,h5,p{
-  font-family: 'Merriweather', serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  font-family: "Merriweather", serif;
 }
 
-  h5{
-    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    letter-spacing: 2.5px;
-    -webkit-text-transform: uppercase;
-    text-transform: uppercase;
-  }
+h5 {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  letter-spacing: 2.5px;
+  -webkit-text-transform: uppercase;
+  text-transform: uppercase;
+  color: white;
+}
 
-  h6{
-    letter-spacing: 2.5px;
-    -webkit-text-transform: uppercase;
-    text-transform: uppercase;
-    font-weight: 600;
-  }
+h6 {
+  letter-spacing: 2.5px;
+  -webkit-text-transform: uppercase;
+  text-transform: uppercase;
+  font-weight: 600;
+}
 
-  p{
-    font-size: 15px;
-    color: #666;
-  }
+p {
+  font-size: 15px;
+  color: white;
+}
 
-.round{
+.round {
   border-radius: 5px;
 }
 
-.text-light{
-  color: #666;
+.text-light {
+  color: rgba(255, 255, 255, 0.822);
 }
 
-.button{
+.button {
   background-color: #333;
 }
 
-.button:hover{
+.button:hover {
   background-color: #111;
 }
 
-a{
+a {
   color: #333;
 }
 
-a:hover{
+a:hover {
   color: #111;
 }
 
-.image{
+.image {
   display: inline-block;
   max-width: 100%;
   margin-bottom: 1rem;
@@ -56,95 +61,176 @@ a:hover{
   line-height: 0;
 }
 
-.portfolio-me{
+.portfolio-me {
   padding: 20px;
   background: #121213;
   color: #fff;
   box-shadow: none !important;
 }
 
-  .portfolio-me p{
-    font-size: 14px;
-    color: #999;
-  }
+.portfolio-me p {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.822);
+}
 
-  .portfolio-me a{
-    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-weight: 600;
-    color: #555;
-    font-size: 13px;
-    letter-spacing: 2.5px;
-    -webkit-text-transform: uppercase;
-    text-transform: uppercase;
-  }
+.portfolio-me a {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.822);
+  font-size: 13px;
+  letter-spacing: 2.5px;
+  -webkit-text-transform: uppercase;
+  text-transform: uppercase;
+}
 
-  .portfolio-me a:hover{
-    color: #999;
-  }
+.portfolio-me a:hover {
+  color: #999;
+}
 
-.portfolio-breadcrumb{
+.portfolio-breadcrumb {
   margin: 0;
   padding: 20px;
   border-bottom: 1px solid #eaeaea;
 }
 
- .portfolio-breadcrumb a{
-   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-   font-weight: 600;
-   font-size: 13px;
-   letter-spacing: 2.5px;
-   -webkit-text-transform: uppercase;
-   text-transform: uppercase;
- }
-
-.portfolio-intro{
-  margin: 0;
-  padding: 40px 50px 30px;
+.portfolio-breadcrumb a {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 2.5px;
+  -webkit-text-transform: uppercase;
+  text-transform: uppercase;
 }
 
-.portfolio-intro p{
+.portfolio-intro {
+  margin: 0;
+  padding: 40px 50px 40px;
+}
+
+.portfolio-intro p {
   border-bottom: 1px solid #eaeaea;
   padding-bottom: 40px;
 }
 
-.portfolio-index{
+.portfolio-index {
   margin: 0;
   padding: 10px 50px;
 }
 
-  .portfolio-index .thumbnail{
-    margin-bottom: 5px;
-  }
+.portfolio-index .thumbnail {
+  margin-bottom: 10px;
+}
 
-  .portfolio-index a{
-    color: #222;
-  }
+.portfolio-index a {
+  color: #222;
+}
 
-  .portfolio-index .cell{
-    margin-bottom: 15px;
-  }
+.portfolio-index .cell {
+  margin-bottom: 15px;
+}
 
-    .portfolio-index .cell h5{
-      letter-spacing: 1px;
-    }
+.portfolio-index .cell h5 {
+  letter-spacing: 1px;
+  text-align: center;
+}
 
-.portfolio-meta{
+.portfolio-meta {
   padding-left: 20px;
 }
 
-  .portfolio-meta .button{
-    margin-bottom: 5px;
-  }
+.portfolio-meta .button {
+  margin-bottom: 5px;
+}
 
-.portfolio-project p{
+.portfolio-project p {
   border: none;
 }
 
-.portfolio-project li{
+.portfolio-project li {
   font-size: 13px;
   color: #444;
 }
 
-.portfolio-bio{
-    line-height: 25px;
+.portfolio-bio {
+  line-height: 25px;
+}
+
+a > .thumbnail {
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0px 5px 2px 3px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+a > .thumbnail:hover {
+  transform: scale(1.07);
+  box-shadow: 0px 5px 8px 3px;
+}
+
+h1 {
+  font-weight: 800;
+  font-family: "Yusei Magic", sans-serif;
+  color: white;
+}
+
+.off-canvas {
+  background-image: linear-gradient(#2c3e50, #bdc3c7);
+  border-right: 3px solid black;
+}
+
+.off-canvas-content {
+  background-image: linear-gradient(-45deg, #bdc3c7, #2c3e50);
+  background-size: 400% 400%;
+  animation: gradientEffect 10s linear infinite;
+  height: 110vh;
+}
+
+@keyframes gradientEffect {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/**
+Error Styles
+*/
+.error-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.not-found {
+  display: flex;
+  justify-content: center;
+  font-size: 200px;
+  margin-right: 10px;
+}
+
+.err-message {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.error-button {
+  margin-top: 40px;
+  border: 1px solid black;
+  padding: 15px;
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: 0px 4px;
+  cursor: pointer;
+}
+
+.stack-container {
+  display: block;
+  text-align: center;
+  width: 50%;
 }

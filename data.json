@@ -1,0 +1,74 @@
+{
+  "projects": [
+    {
+      "id": 0,
+      "project_name": "Random Quote Generator",
+      "description": "A program that displays a randomly selected quote each time the user clicks a button.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "https://renzoregio.github.io/random-quote-generator/",
+      "github_link": "https://github.com/RenzoRegio/random-quote-generator",
+      "image_urls": [
+        "/static/images/quote_0.png",
+        "/static/images/quote_1.png",
+        "/static/images/quote_2.png",
+        "/static/images/quote_3.png"
+      ]
+    },
+    {
+      "id": 1,
+      "project_name": "Data Pagination and Filtering",
+      "description": "Displays several pages of student data that the user can easily navigate and view.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "https://renzoregio.github.io/data-pagination-filtering/",
+      "github_link": "https://github.com/RenzoRegio/data-pagination-filtering",
+      "image_urls": [
+        "/static/images/pagination_0.png",
+        "/static/images/pagination_1.png",
+        "/static/images/pagination_2.png",
+        "/static/images/pagination_3.png"
+      ]
+    },
+    {
+      "id": 2,
+      "project_name": "Interactive Form",
+      "description": "Interactive and engaging form that responds to user's inputs and contains validation features.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "https://renzoregio.github.io/interactive-form/",
+      "github_link": "https://github.com/RenzoRegio/interactive-form",
+      "image_urls": [
+        "/static/images/form_0.png",
+        "/static/images/form_1.png",
+        "/static/images/form_2.png",
+        "/static/images/form_3.png"
+      ]
+    },
+    {
+      "id": 3,
+      "project_name": "OOP Game Show App",
+      "description": "Browser-based word guessing game that focuses on Object-oriented Programming to select a random, hidden phrase.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "https://renzoregio.github.io/OOP-game-show-app/",
+      "github_link": "https://github.com/RenzoRegio/OOP-game-show-app",
+      "image_urls": [
+        "/static/images/oop_0.png",
+        "/static/images/oop_1.png",
+        "/static/images/oop_2.png",
+        "/static/images/oop_3.png"
+      ]
+    },
+    {
+      "id": 4,
+      "project_name": "Public API Requests",
+      "description": "An employee directory that is communicated by a third-party API.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "blank",
+      "github_link": "https://github.com/RenzoRegio/employee-directory-public-api-requests",
+      "image_urls": [
+        "/static/images/api_0.png",
+        "/static/images/api_1.png",
+        "/static/images/api_2.png",
+        "/static/images/api_3.png"
+      ]
+    }
+  ]
+}

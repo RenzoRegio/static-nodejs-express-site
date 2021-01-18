@@ -1,0 +1,10 @@
+extends layout
+
+block content
+    .error-container
+        h1.not-found= err.statusCode
+        span.err-message= err.message
+        .stack-container
+            p= err.stack
+        form(action="/")
+            button.error-button Home page

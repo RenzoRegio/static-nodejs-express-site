@@ -1,0 +1,9 @@
+extends layout
+
+block content
+    .error-container
+        h1.not-found 404
+        span.err-message It's okay, you didn't break anything. We just can't find what you're looking for.
+        form(action="/")
+            button.error-button Home page
+        
