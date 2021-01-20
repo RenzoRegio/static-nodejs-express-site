@@ -61,7 +61,7 @@
       "project_name": "Public API Requests",
       "description": "An employee directory that is communicated by a third-party API.",
       "technologies": ["HTML", "CSS", "JavaScript"],
-      "live_link": "blank",
+      "live_link": "https://renzoregio.github.io/employee-directory-public-api-requests/",
       "github_link": "https://github.com/RenzoRegio/employee-directory-public-api-requests",
       "image_urls": [
         "/static/images/api_0.png",
